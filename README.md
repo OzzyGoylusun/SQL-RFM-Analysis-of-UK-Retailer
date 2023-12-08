@@ -81,7 +81,7 @@ SELECT "customerID",
         ...,
         ...,
 	--By means of NTILE functions, we are assigning each customer a recency, frequency and monetary score
-	--from 1 to 5 based on their resulting recency, frequency and monetary values
+--from 1 to 5 based on their resulting recency, frequency and monetary values
         NTILE(5) OVER(ORDER BY RECENCY_VALUE DESC) AS RECENCY_SCORE,
         ...,
         ...,
