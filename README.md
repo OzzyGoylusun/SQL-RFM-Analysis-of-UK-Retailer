@@ -29,9 +29,9 @@ Sales Data: The dataset used for this analysis is the "data.csv" file, containin
 
 In the data preparation phase, I performed the following tasks:
 
-1. Data loading and inspection.
-2. Handling missing values.
-3. Data cleaning.
+1. Data loading and inspection
+2. Handling missing values
+3. Data cleaning
    
 ### Exploratory Data Analysis (EDA)
 
