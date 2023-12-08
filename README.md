@@ -10,7 +10,7 @@
 ### RFM (Recency, Frequency, Monetary) Data Analysis Overview
 ---
 This RFM data analysis work focusses on assisting a UK retailer with re-adjusting its customer segmentation strategy by quantitatively ranking and grouping its customers 
-based on the recency, frequency and monetary value of its proprietary transactions.
+based on the recency, frequency and monetary value of **its proprietary transactional data**.
 
 In return, this data-driven approach is expected to enable the firm to continuously identify its best customers and undertake targeted marketing campaigns.
 
