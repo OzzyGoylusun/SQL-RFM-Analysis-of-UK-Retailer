@@ -91,7 +91,6 @@ INNER JOIN MONETARY USING ("customerID")
 
 ```
 
-
 ### Findings
 
 The analysis discrete results are summarised as follows:
@@ -110,14 +109,16 @@ Based on the analysis, I recommend the following actions:
 - Offer membership/loyalty  programs to the **Potential Loyalists** in an attempt to upgrade them to the **Champions** segment
 - Reconnect with your **At Risk Customers** via personalised reactivation communications which include coupons and/or other incentives.
 
-### Limitations: Records that you have been compelled to take out of your analysis (e.g., outliers, NaNs etc.). This can help you work as your Disclaimer.
+### Limitations: 
 
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a
-few outliers even after the omissions but even then we can still see that there is a positive correlatation between both budget and number of votes with revenue.
+The following records needed to be removed from the RFM analysis in order to protect the integrity of the actual data and to ensure the accuracy of my conclusions:
 
-### References: Let's say you checked something online, Googled, or simply source of your data and case study content etc.
+- Cancelled invoices
+- Missing/Corrupted customerIDs
+- Prices lower than $0
+- Records associated with manuals and postage fees
 
-1. SQL for Businesses by Werty. (Book Name)
-2. [PostgreSQL: TimeSeries](https://www.postgresql.org/docs/current/functions-datetime.html#FUNCTIONS-DATETIME-TABLE)
 
-3. https://www.kaggle.com/datasets/carrie1/ecommerce-data (DataSet)
+### References:
+
+1. [Dataset from Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data/)
