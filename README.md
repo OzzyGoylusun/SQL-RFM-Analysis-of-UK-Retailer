@@ -94,13 +94,11 @@ INNER JOIN MONETARY USING ("customerID")
 ```
 
 
-
 ### Findings
 
 The analysis results are summarised as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+1. ~%8 percent of all customers have achieved a score of 125, considered **top premium**.
+2. Approximately 20% of all customers have achieved a score of 125, 100 or 80, considered **secondary top premium**.
 
 ### Recommendations
 
