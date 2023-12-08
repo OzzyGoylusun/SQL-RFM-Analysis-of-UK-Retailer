@@ -97,8 +97,10 @@ INNER JOIN MONETARY USING ("customerID")
 ### Findings
 
 The analysis results are summarised as follows:
-1. ~%8 percent of all customers have achieved a score of 125, considered **top premium**.
-2. Approximately 20% of all customers have achieved a score of 125, 100 or 80, considered **secondary top premium**.
+1. Approx. 20% of all customers have achieved a total ultimate RFM score of 125 or 100, considered **Champions**.
+2. Approx. 4% of all customers have achieved 4 points on Recency, either 3 or 4 points on Frequency and 4 points on Monetary, considered **Potential Loyalists**
+3. There are 20 valuable customers who scored 4 or 5 points on Recency and Monetary, but their Frequency Score is lower than 3 points, considered **New Customers**
+4. 
 
 ### Recommendations
 
