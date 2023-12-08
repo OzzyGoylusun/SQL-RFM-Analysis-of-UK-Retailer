@@ -12,12 +12,12 @@
 This RFM data analysis work focusses on assisting a UK retailer with re-adjusting its customer segmentation strategy by quantitatively re-ranking and re-grouping its customers 
 based on the recency, frequency and monetary value of each transactional data per customer.
 
-The adopted data-driven approach is expected to enable the firm to continuously identify its best customers, appropriately re-segment customer groups and accordingly undertake targeted marketing campaigns.
+The adopted data-driven approach is expected to enable the firm to continuously better identify its best customers, appropriately re-segment its customer groups and undertake targeted marketing campaigns accordingly.
 
 
 ### Data Sources
 
-Sales Data: The primary dataset used for this analysis is the "data.csv" file, containing detailed information about each transaction made by the company's customers
+Sales Data: The dataset used for this analysis is the "data.csv" file, containing detailed information about each transaction made by the company's customers.
 
 ### Tools
 
@@ -31,15 +31,15 @@ In the initial data preparation phase, I performed the following tasks:
 
 1. Data loading and inspection.
 2. Handling missing values.
-3. Data cleaning and formatting. (HAVE WE?)
-
+3. Data cleaning.
+   
 ### Exploratory Data Analysis (EDA)
 
-EDA involved exploring the complex transaction data to answer the following key questions:
+EDA primarily involved exploring the complex transaction data to answer the following key questions:
 
-- What percentage of all customers have achieved an ultimate RFM score of 125 out of 125?
+- What percentage of all customers have achieved an ultimate RFM score of 100 or 125 out of 125?
   
-  - For your information, customers receive a score from 1 to 5 from each category based on how recently, frequently and monetarily they transact with the retailer, benchmarked against other customers:
+  - For your information, customers receive a score from 1 to 5 from each category based on how recently, frequently and monetarily they have transacted with the retailer, benchmarked against other customers:
  
       |Recency|Frequency|Monetary|
       |--------|--------|--------|
