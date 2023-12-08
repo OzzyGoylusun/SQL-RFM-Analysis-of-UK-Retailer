@@ -1,4 +1,4 @@
-# SQL RFM Data Analysis of a UK Retail Company
+# SQL RFM Data Analysis of UK Retail Company
 
 ## Table of Contents (EXAMPLE)
 
