@@ -37,16 +37,17 @@ In the initial data preparation phase, I performed the following tasks:
 
 EDA primarily involved exploring the complex transaction data to answer the following key questions:
 
-- What percentage of all customers have achieved an ultimate RFM score of 100 or 125 out of 125?
+- What percentage of all customers have achieved an ultimate RFM score of 100 or 125 out of 125 as its **Champions**?
   
-  - For your information, customers receive a score from 1 to 5 from each category based on how recently, frequently and monetarily they have transacted with the retailer, benchmarked against other customers:
+  - For your information, customers receive a score from 1 to 5 from each category based on how recently, frequently and monetarily they have transacted with the retailer, benchmarked against other customers. For instance:
  
       |Recency|Frequency|Monetary|
       |--------|--------|--------|
       |5*|5*|5|
       | | |=125|
 
-- What percentage of all customers have scored at least 5 points out of one category while scoring 4 points out of the others?
+- How many potentially loyal customers can the retailer identify to upgrade them to champions?
+- How many customers is the retailer at the risk of losing due to lack of interactions or some other reasons? 
 
 
 ### Data_Analysis
