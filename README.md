@@ -47,7 +47,7 @@ EDA primarily involved exploring the complex transaction data to answer these ke
       | | |=125|
 
 - How many potentially loyal customers can the retailer identify to upgrade them to Champions?
-- How many customers is the retailer at the risk of losing due to lack of interactions or some other reasons? 
+- How many customers is the retailer at the risk of losing due to lack of interaction or some other reasons? 
 
 
 ### Data_Analysis
