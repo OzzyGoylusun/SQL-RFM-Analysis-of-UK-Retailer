@@ -116,7 +116,7 @@ Based on the analysis, I recommend the following actions:
 The following records needed to be removed from the RFM analysis in order to ensure the utmost accuracy of my conclusions:
 
 - Cancelled invoices
-- Missing/Corrupted customerIDs
+- Missing/corrupted customerIDs
 - Prices lower than $0
 - Records associated with manuals and postage fees
 
