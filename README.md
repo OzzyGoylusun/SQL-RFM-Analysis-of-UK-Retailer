@@ -108,7 +108,7 @@ Based on the analysis, I recommend the following actions:
 
 - Consider further rewarding your champions as they could very well become early adopters for new products and assist with the promotion of the retailer's brand.
 - Offer membership/loyalty  programs to the **Potential Loyalists** in an attempt to upgrade them to the **Champions** segment
-- Im
+- Reconnect with your **At Risk Customers** via personalised reactivation communications which include coupons and/or other incentives.
 
 ### Limitations: Records that you have been compelled to take out of your analysis (e.g., outliers, NaNs etc.). This can help you work as your Disclaimer.
 
