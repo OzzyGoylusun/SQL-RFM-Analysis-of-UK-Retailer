@@ -66,7 +66,7 @@ WITH RECENCY AS(
 	 
 SELECT "customerID",
       EXTRACT(DAY FROM ('2011-12-09 12:50:00'::timestamp - LAST_BOOKING_DATE)) AS RECENCY_VALUE
-  --Yukarıda da bahsettiğim gibi veri setimizde bulunan en son sipariş tarihini önceden hesaplatıp burada o şekilde kullanıyorum.
+  --As the dataset is somewhat old, we consider our last booking date the last processed invoice of a customer in the dataset
 
 FROM LAST_BOOKING_DATE_CALCS_TABLE
 )
@@ -80,7 +80,7 @@ SELECT "customerID",
         RECENCY_VALUE,
         ...,
         ...,
-        --Her bir müşteriye ait Recency, Frequency ve Monetary Skorunu aşağıda atıyorum.
+	--By means of NTILE functions, we are assigning each customer a recency, frequency and monetary score from 1 to 5 based on their resulting recency, frequency and monetary values
         NTILE(5) OVER(ORDER BY RECENCY_VALUE DESC) AS RECENCY_SCORE,
         ...,
         ...,
