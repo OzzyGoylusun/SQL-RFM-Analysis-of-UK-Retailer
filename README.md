@@ -9,12 +9,10 @@
 
 ### RFM Data Analysis Overview
 ---
-
 This RFM data analysis work focusses on assisting a UK retailer with re-adjusting its customer segmentation strategy by quantitatively ranking and grouping its customers 
 based on the recency, frequency and monetary value of its proprietary transactions.
 
 In return, this data-driven approach is expected to enable the firm to continuously identify its best customers and undertake targeted marketing campaigns.
-
 
 
 ### Data Sources
@@ -96,21 +94,21 @@ INNER JOIN MONETARY USING ("customerID")
 
 ### Findings
 
-The analysis results are summarised as follows:
-1. Approx. 20% of all customers have achieved a total ultimate RFM score of 125 or 100, considered **Champions**.
-2. Approx. 4% of all customers have achieved 4 points on Recency, either 3 or 4 points on Frequency and 4 points on Monetary, considered **Potential Loyalists**
-3. There are 20 valuable customers who scored 4 or 5 points on Recency and Monetary, but their Frequency Score is lower than 3 points, considered **New Customers**
-4. 
+The analysis discrete results are summarised as follows:
+
+1. Approx. 15% of all customers have achieved a total Ultimate RFM Score of 125 or 100, considered **Champions**.
+2. 96 customers out of 4335 have achieved 4 points on Recency, 3 points on Frequency and 4 points on Monetary, considered **Potential Loyalists**
+3. There are nearly 200 valuable customers who scored less than 3 points on Recency, but scored 4 or 5 points on Frequency and Monetary, considered **At Risk Customers**
+
+Please note that there were no repetititons/crossovers of customers amongst each customer segment analysed.
 
 ### Recommendations
 
-This part actually empowers data analysts to provide value to the firms for which they are undertaking work.
+Based on the analysis, I recommend the following actions:
 
-Based on the analysis, we recommend the following actions:
-
-- Invest in marketing and promotions during peak sales seasons to maximize revenue.
-- Focus on expanding and promoting products in Category A.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
+- Consider further rewarding your champions as they could very well become early adopters for new products and assist with the promotion of the retailer's brand.
+- Offer membership/loyalty  programs to the **Potential Loyalists** in an attempt to upgrade them to the **Champions** segment
+- Im
 
 ### Limitations: Records that you have been compelled to take out of your analysis (e.g., outliers, NaNs etc.). This can help you work as your Disclaimer.
 
