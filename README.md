@@ -113,7 +113,7 @@ Based on the analysis, I recommend the following actions:
 
 ### Limitations: 
 
-The following records needed to be removed from the RFM analysis in order to protect the integrity of the actual while ensuring the accuracy of my conclusions:
+The following records needed to be removed from the RFM analysis in order to ensure the utmost accuracy of my conclusions:
 
 - Cancelled invoices
 - Missing/Corrupted customerIDs
