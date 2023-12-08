@@ -107,7 +107,7 @@ Please note that there were no repetititons/crossovers of customers amongst each
 
 Based on the analysis, I recommend the following actions:
 
-- Consider further rewarding the champions as they could very well become early adopters for new products and assist with the promotion of the retailer's brand as well.
+- Consider further rewarding the Champions as they could very well become early adopters for new products and assist with the promotion of the retailer's brand as well.
 - Offer membership/loyalty  programs to the **Potential Loyalists** in an attempt to upgrade them to the **Champions** segment.
 - Put in more effort to reconnect with your **At Risk Customers** via personalised reactivation communications which include coupons and/or other incentives.
 
