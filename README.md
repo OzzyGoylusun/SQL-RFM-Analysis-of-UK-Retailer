@@ -73,7 +73,7 @@ FROM LAST_BOOKING_DATE_CALCS_TABLE
 )
 ```
 
-In addition, I also found it very effective to assign a recency score to each customer from 1 to 5, using the **NTILE() window function**, as follows:
+In addition, I also found it very effective to assign, for instance, a recency score to each customer from 1 to 5, using the **NTILE() window function**, as follows:
 
 ```sql
 
