@@ -52,7 +52,7 @@ EDA primarily involved exploring the complex transaction data to answer these ke
 
 ### Data_Analysis
 
-Compared to my *Frequency* and *Monetary* tables, I found the calculations with the **Recency** table a bit more complex due to the natural need to also have to calculate the customers' last booking date beforehand, as follows:
+Compared to my *Frequency* and *Monetary* tables, I found the coding with the **Recency** table a bit more complex due to the natural need to also have to calculate the customers' last booking date beforehand, as follows:
 
 ```sql
 WITH RECENCY AS(
