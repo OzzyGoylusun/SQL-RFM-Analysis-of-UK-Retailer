@@ -53,7 +53,7 @@ SELECT * FROM table1
 WHERE cond = 2
 ```
 
-### Results/Findings
+### Findings
 
 The analysis results are summarised as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
