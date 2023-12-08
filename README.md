@@ -12,7 +12,7 @@
 This RFM data analysis work focusses on assisting a UK retailer with re-adjusting its customer segmentation strategy by quantitatively re-ranking and re-grouping its customers 
 based on the recency, frequency and monetary value of each transactional data per customer.
 
-The adopted data-driven approach is expected to enable the firm to continuously better identify its best customers, appropriately re-segment its customer groups and undertake targeted marketing campaigns accordingly.
+This adopted data-driven approach is expected to enable the firm to continuously better identify its best customers, appropriately re-segment its customer groups and undertake targeted marketing campaigns accordingly.
 
 
 ### Data Sources
