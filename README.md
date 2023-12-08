@@ -35,7 +35,7 @@ In the data preparation phase, I performed the following tasks:
    
 ### Exploratory Data Analysis (EDA)
 
-EDA primarily involved exploring the complex transaction data to answer the following key questions:
+EDA primarily involved exploring the complex transaction data to answer these key questions:
 
 - What percentage of all customers have achieved an ultimate RFM score of 100 or 125 out of 125 as its **Champions**?
   
