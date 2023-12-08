@@ -33,25 +33,67 @@ In the initial data preparation phase, I performed the following tasks:
 
 1. Data loading and inspection.
 2. Handling missing values.
-3. Data cleaning and formatting.
+3. Data cleaning and formatting. (HAVE WE?)
 
 ### Exploratory Data Analysis (EDA)
 
-EDA involved exploring the sales data to answer key questions, such as:
+EDA involved exploring the complex transaction data to answer the following key questions:
 
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
+- What percentage of all customers have achieved an ultimate RFM score of 125 out of 125?
+  
+  - For your information, customers receive a score from 1 to 5 from each category based on how recently, frequently and monetarily they transact with the retailer, benchmarked against other customers:
+ 
+      |Recency|Frequency|Monetary|
+      |--------|--------|--------|
+      |5*|5*|5|
+      | | |=125|
+
+- What percentage of all customers have scored at least 5 points out of one category while scoring 4 points out of the others?
 
 
 ### Data_Analysis
 
-Include some interesting code/features worked with
+Compared to my *Frequency* and *Monetary* tables, I found the calculations with the **Recency** table a bit more complex due to the natural need to also have to calculate the customers' last booking date beforehand.
 
 ```sql
-SELECT * FROM table1
-WHERE cond = 2
+WITH RECENCY AS(
+
+  WITH LAST_BOOKING_DATE_CALCS_TABLE AS(
+
+      SELECT "customerID",
+          MAX("invoiceDate") AS LAST_BOOKING_DATE
+      FROM CLEANED_UP_DATASET
+      GROUP BY 1
+  ) 
+	 
+SELECT "customerID",
+      EXTRACT(DAY FROM ('2011-12-09 12:50:00'::timestamp - LAST_BOOKING_DATE)) AS RECENCY_VALUE
+  --Yukarıda da bahsettiğim gibi veri setimizde bulunan en son sipariş tarihini önceden hesaplatıp burada o şekilde kullanıyorum.
+
+FROM LAST_BOOKING_DATE_CALCS_TABLE
+)
 ```
+
+In addition, I also found it very effective to assign a recency score to each customer from 1 to 5, using the **NTILE() window function**, as follows:
+
+```sql
+
+SELECT "customerID",
+        RECENCY_VALUE,
+        ...,
+        ...,
+        --Her bir müşteriye ait Recency, Frequency ve Monetary Skorunu aşağıda atıyorum.
+        NTILE(5) OVER(ORDER BY RECENCY_VALUE DESC) AS RECENCY_SCORE,
+        ...,
+        ...,
+
+FROM RECENCY
+INNER JOIN FREQUENCY USING ("customerID")
+INNER JOIN MONETARY USING ("customerID")
+
+```
+
+
 
 ### Findings
 
