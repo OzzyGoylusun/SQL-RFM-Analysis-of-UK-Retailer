@@ -12,6 +12,12 @@
 This RFM data analysis work focusses on assisting a UK retailer with re-adjusting its customer segmentation strategy by quantitatively re-ranking and re-grouping its customers 
 based on the recency, frequency and monetary value of each transactional data per customer.
 
+<p align="center">
+  <img src="https://github.com/OzzyGoylusun/SQL.-RFM-Analysis-of-UK-Retailer/blob/main/Representation%20of%20RFM.png"
+ alt="Representation of RFM">
+</p>
+
+
 This adopted data-driven approach is expected to enable the firm to continuously better identify its best customers, appropriately re-segment its customer groups and undertake targeted marketing campaigns accordingly.
 
 
