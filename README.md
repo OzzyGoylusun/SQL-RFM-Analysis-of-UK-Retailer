@@ -101,7 +101,7 @@ INNER JOIN MONETARY USING ("customerID")
 
 ### Findings
 
-The analysis results are predominantly summarised as follows:
+The analysis results can predominantly be summarised as follows:
 
 1. Approx. 15% of all customers have achieved a total Ultimate RFM Score of 100 or 125, considered **Champions**.
 2. 96 customers out of 4335 have achieved 4 points on Recency, 3 points on Frequency and 4 points on Monetary, considered **Potential Loyalists**.
