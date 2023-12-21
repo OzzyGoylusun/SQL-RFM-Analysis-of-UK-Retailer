@@ -130,3 +130,4 @@ The following records needed to be removed from the RFM analysis in order to ens
 ### References:
 
 1. [Dataset from Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data/)
+2. [RFM Visual](https://rfmcube.com/en/catch-all-guide-on-your-customer-base-rfm-analysis/)
