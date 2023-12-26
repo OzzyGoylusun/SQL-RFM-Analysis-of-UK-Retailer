@@ -13,7 +13,7 @@ This RFM data analysis work focusses on assisting a UK retailer with re-adjustin
 based on the recency, frequency and monetary value of each transactional data per customer.
 
 <p align="center">
-  <img src="https://github.com/OzzyGoylusun/SQL.-RFM-Analysis-of-UK-Retailer/blob/main/Representation%20of%20RFM.png"
+  <img src="https://github.com/OzzyGoylusun/SQL.-RFM-Analysis-of-UK-Retailer/blob/main/Visuals/Representation%20of%20RFM.png"
  alt="Representation of RFM">
 </p>
 
