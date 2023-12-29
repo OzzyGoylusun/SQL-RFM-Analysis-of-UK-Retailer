@@ -1,4 +1,4 @@
-# SQL- RFM Analysis of a UK-Based Retailer
+# SQL RFM Analysis of a UK-Based Retailer
 
 ## Table of Contents
 
