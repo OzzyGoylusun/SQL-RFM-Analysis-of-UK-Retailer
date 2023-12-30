@@ -14,7 +14,7 @@ based on the recency, frequency and monetary value of each transactional data pe
 
 <p align="center">
   <img src="https://github.com/OzzyGoylusun/SQL.-RFM-Analysis-of-UK-Retailer/blob/main/Visuals/Representation%20of%20RFM.png"
- alt="Representation of RFM">
+ alt="Representation of RFM" width='70>
 </p>
 
 
